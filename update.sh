@@ -3,8 +3,8 @@
 echo "Checking for updates..." \
 	&& git pull \
 	&& echo "Copying files..." \
-	&& touch ~/.vimrc \
-	&& mv ~/.vimrc ~/.vimrc.bak \
-	&& cp .vimrc ~/.vimrc \
+	&& touch ~/.nanorc \
+	&& mv ~/.nanorc ~/.nanorc.bak \
+	&& cp .nanorc ~/.nanorc \
 	&& echo "Done :)"
 
